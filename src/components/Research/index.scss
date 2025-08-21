@@ -1,0 +1,7 @@
+.research-page {
+  .text-zone {
+    /* override the default top positioning */
+    top: 42%;               // tweak until it visually lines up with Contact
+    transform: translateY(-140%);
+  }
+}

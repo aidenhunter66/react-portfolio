@@ -1,0 +1,43 @@
+//Defining a primary color I can use this throughout my website. It is just a var.
+$primary-color: #ffd700;
+
+//Importing an animation library that I can use for later
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+//These register custom fonts so they can be used throughout my project. I am giving the type of font family and the source.
+//Some default fonts, like times new roman, are built into my laptop so I do not need to import these fonts.
+@font-face{
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+//For all input texts, I want to use this font below.
+input,
+textarea{
+  font-family:'Helvetica Neue';
+}
+
+.loader-active{
+  display: block;
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  top: 0;
+  bottom:0;
+  width:50px;
+  height:50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}

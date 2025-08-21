@@ -1,0 +1,20 @@
+
+html{
+  font-size: 62.5%
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+The html part sets the base font size to 62.5% of the defualt (which is 16px) --> 10 px. So now, 1rem = 10px. rem is a CSS unit of measurement.
+Overflow prevents scrolling by hiding anything that overflows the body. (safari/chrom)
+-webkit makes fonts thinner and smoother, -moz improves appearance. (firefox/macOS)
+*/

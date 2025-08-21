@@ -1,0 +1,26 @@
+.text-animate{
+    display: inline-block; //we want this to appear as a word ina  sentence.
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width:10px;
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color:cornflowerblue;
+    }
+}
+
+//For loop for each letter. Iterates through each letter in teh arrays and delays the animation so it appears as if they are doing it sequentially not all at once.
+@for $i from 1 through 35{
+    .text-animate._#{$i}{
+        animation-delay: #{$i/10}s;
+    }
+}
+
