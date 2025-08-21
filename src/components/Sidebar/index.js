@@ -1,10 +1,10 @@
 import './index.scss'
-import { Link, NavLink } from 'react-router-dom'
-import LogoSubtitle from '../../assets/images/picture.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faEnvelope, faUser, faSuitcase, faBars, faClose, faLaptop } from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
+import {  NavLink } from 'react-router-dom'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome, faEnvelope, faUser,  faLaptop } from '@fortawesome/free-solid-svg-icons'
+import {faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
+//other icons: faSuitcase, faBars, faClose
 
 
 const Sidebar = () => (

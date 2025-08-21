@@ -5,7 +5,7 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from 'components/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faCss, faCss3, faGitAlt, faGithubSquare, faHtml5, faJsSquare, faLinkedin, faLinkedinIn, faReact, faStackOverflow, faUsb } from '@fortawesome/free-brands-svg-icons';
+import { faGitAlt, faGithubSquare, faLinkedin, faReact, faStackOverflow, faUsb } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
 //The arrow function is how to define a react component

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect,  useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 import Loader from 'react-loaders';
@@ -7,7 +7,7 @@ import Loader from 'react-loaders';
 const Research = () => {
 
      const [letterClass, setLetterClass] = useState('text-animate')
-        const refForm  = useRef()
+
     
     
         useEffect(() => {
